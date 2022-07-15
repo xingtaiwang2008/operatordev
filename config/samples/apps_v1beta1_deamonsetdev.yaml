@@ -1,0 +1,6 @@
+apiVersion: apps.operatordev.io/v1beta1
+kind: DeamonSetdev
+metadata:
+  name: deamonsetdev-sample
+spec:
+  # TODO(user): Add fields here

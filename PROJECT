@@ -1,0 +1,20 @@
+domain: operatordev.io
+layout:
+- go.kubebuilder.io/v3
+projectName: operatordev
+repo: operatordev
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: operatordev.io
+  group: apps
+  kind: DeamonSetdev
+  path: operatordev/api/v1beta1
+  version: v1beta1
+  webhooks:
+    defaulting: true
+    validation: true
+    webhookVersion: v1
+version: "3"
